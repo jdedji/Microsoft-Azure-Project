@@ -1,6 +1,6 @@
 Kubernete Application version upgrade
 kubectl get pod ==== to make sure Application are running before to satart.
-kubectl config current-context === to make sure Im In the correct K8s,if Im not in the proper k8s , I switch to the correct k8s(export KUBECONFIG=<k8s name>)
+kubectl config current-context === to make sure Im connected to the correct K8s,otherwise , I switch to the correct k8s using "export KUBECONFIG=<k8s name" or "az aks get-credentials --resource-group myResourceGroup --name myAKSCluster"
 list the name space : kubectl get ns
 kubectl get deploy -n <name space> -o wide ==== to see the current version .
 I take backup of the current version so I can rollback to it in case the upgrade failed
