@@ -1,0 +1,11 @@
+Kubernete Application version upgrade
+kubectl get pod ==== to make sure Application are running before to satart.
+kubectl config current-context === to make sure Im In the correct K8s,if Im not in the proper k8s , I switch to the correct k8s(export KUBECONFIG=<k8s name>)
+list the name space : kubectl get ns
+kubectl get deploy -n <name space> -o wide ==== to see the current version .
+I take backup of the current version so I can rollback to it in case the upgrade failed
+kubectl edit deploy <applictaion name> -n <name space> === this will open kubernates yaml file where I change the App version to newer version.
+kubectl get pod <name space> === to see if all app are running.
+Check App logs.
+Restart graphql-gateway only if the App updated is in the backend
+After the upgrade activity, I inform the Application team for verification. 
