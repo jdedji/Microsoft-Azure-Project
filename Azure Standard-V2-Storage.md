@@ -4,7 +4,6 @@ I Start by creating a new branch from git main branch,
 swicth to my branch created, make sure to be in the client Kubernete Cluster and then Run terraform plan for that client to ensure no changes are pending. 
 Step2
 Terraform file creation or update of existing files: 
-
 profider.tf :
 #Add cloud provider
 #Subscription ID
