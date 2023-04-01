@@ -7,4 +7,4 @@ To make sure our AKS Clusters are maintained on regular base, we keep our Applic
 I take backup of the current version so I can rollback to it in case the upgrade failed
 ### kubectl edit deploy <applictaion name> -n <name space> === this will open kubernates yaml file where I change the App version to newer version.
 ### kubectl get pod <name space> === to see if all app are running.
-I Check App logs and restart graphql-gateway only if the App updated is in the backend. After the upgrade activity, I inform the Application team for verification. 
+I finally Check the Application logs and restart graphql-gateway only if the App updated is in the backend. After the upgrade activity, I inform the Application team for verification. 
