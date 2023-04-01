@@ -1,4 +1,4 @@
-Kubernete Application version upgrade
+# Kubernete Application version upgrade
 kubectl get pod ==== to make sure Application are running before to satart.
 kubectl config current-context === to make sure Im connected to the correct K8s,otherwise , I switch to the correct k8s using "export KUBECONFIG=<k8s name" or "az aks get-credentials --resource-group myResourceGroup --name myAKSCluster"
 list the name space : kubectl get ns
