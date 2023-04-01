@@ -4,30 +4,28 @@ When clients migrate to databricks, they will need a new type of storage setup -
 I Start by creating a new branch from git main branch, 
 swicth to my branch created, make sure to be in the client Kubernete Cluster and then Run terraform plan for that client to ensure no changes are pending. 
 ## Step2: Terraform file creation or update of existing files: 
-### profider.tf :
-Add cloud provider
-Subscription ID
-Tenant ID
-Client ID
-Client Secret ID
+### profider.tf :bellow resources will be included in the provider file. 
+#### Subscription ID
+#### Tenant ID
+#### Client ID
+#### Client Secret ID
 
-### Storage.tf
-creation of standard storage acct :
-Storage name 
-Resource Group name 
-Location 
-Account tier (Standard)
-Access replication type(RAGRS)
-Account kind(SorageV2)
-Access tier(Hot)
-Deletion retention policy (days=1)
+### Storage.tf: creation of standard storage account :
+#### Storage name 
+#### Resource Group name 
+#### Location 
+#### Account tier (Standard)
+#### Access replication type(RAGRS)
+#### Account kind(SorageV2)
+#### Access tier(Hot)
+#### Deletion retention policy (days=1)
 
-create App reg for RW access 
-Client secret 
-add RW role assignment to std storage 
-Add RW clientID to KeyVault
-create App reg for RO access
-create service princilpal 
+### Create App reg for RW access 
+#### Client secret 
+#### Add RW role assignment to std storage 
+#### Add RW clientID to KeyVault
+#### Create App reg for RO access
+#### Create service princilpal 
 
 ## Step3:
 Garther containers requiresd and mount them . Containers are mounted in Prod as RW, and in qa/stage as RO
