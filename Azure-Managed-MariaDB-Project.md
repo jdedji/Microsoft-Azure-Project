@@ -1,6 +1,6 @@
 # Azure Managed MariaDB instance:
 ## Step 1: 
-	I Start by creating a new branch from our github main branch, switch to my branch created, making sure to be in the client Kubernetes Cluster and then Run           terraform init to ensure no changes are pending. 
+I Start by creating a new branch from our github main branch, switch to my branch created, making sure to be in the client Kubernetes Cluster and then Run terraform init and plan to ensure no changes are pending. 
 ## Step: 2
 #### Terraform file creation or update of existing files: 
 ### Provider.tf
