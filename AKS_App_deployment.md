@@ -2,17 +2,17 @@
   ## Project overview:
  Kubernetes provides a distributed platform for containerized applications. With AKS, I can quickly create a production ready Kubernetes cluster. In this project, I have used Azure Container Registry (ACR) as a private registry for container images and Azure Kubernates Services to :
  
-•	Deployed an ACR instance 
+  •	Deployed an ACR instance 
 
-•	Created docker image
+  •	Created docker image
 
-•	Upload my docker image to  ACR instance
+  •	Upload my docker image to  ACR instance
 
-•	Deployed Kubernetes AKS cluster, authenticated to my Azure Container Registry (ACR)
+  •	Deployed Kubernetes AKS cluster, authenticated to my Azure Container Registry (ACR)
 
-•	Updated my Kubernetes manifest file 
+  •	Updated my Kubernetes manifest file 
 
-•	Runned my application in Kubernetes K8s.
+  •	Runned my application in Kubernetes K8s.
 #### Create a branch and clone Repo
 #### Create Resource group
 $ az group create --name tcb-vote --location <region>
