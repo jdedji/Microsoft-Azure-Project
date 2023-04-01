@@ -25,8 +25,6 @@ Storage.tf :
 
 #create App reg for RW access 
 #Client secret 
-<img width="960" alt="backup_az" src="https://user-images.githubusercontent.com/55653989/229299413-b80e43cc-443c-4eef-8846-c145cdee37e2.PNG">
-
 #add RW role assignment to std storage 
 #Add RW clientID to KeyVault
 #create App reg for RO access
