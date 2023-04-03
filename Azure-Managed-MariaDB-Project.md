@@ -1,7 +1,7 @@
 # Azure Managed MariaDB instance:
-## Step 1: 
+## Step1
 I Start by creating a new branch from our github main branch, switch to my branch created, making sure to be in the client Kubernetes Cluster and then Run terraform init and plan to ensure no changes are pending. 
-## Step: 2
+## Step2
 #### Terraform file creation or update of existing files: 
 ### Provider.tf
 		• Add cloud provider
@@ -45,14 +45,14 @@ I Start by creating a new branch from our github main branch, switch to my branc
 ### Variable.tf
 	where I provide value to all variables declared in mariadb.tf and provider.ft files.
 	
-## Step: 3
+## Step3
 	After all code change , I then run:
 		• Terraform init
 
 		• Terraform plan
 
 		• Terraform Apply
-## Step: 3
+## Step4
 	 After deployment I finally
 	 
 		• Configure Azure Private endpoint
