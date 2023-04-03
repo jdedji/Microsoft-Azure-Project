@@ -65,5 +65,10 @@ I Start by creating a new branch from our github main branch, switch to my branc
 
 		• Share all login credential with data science team. 
 
-		• Replace the existing hostname and username in the Kubernetes config map by the new hostname, username created after migration is complete
+		• After migrating from VM to the new MariaDB created I then connect to the client Kubernetes cluster to update hostname and username
+		
+		• Push the code to my github branch
+		
+		• Create pull request for code to be merged to the master branch 
+		
 
