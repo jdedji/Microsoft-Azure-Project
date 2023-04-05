@@ -60,10 +60,6 @@ This is where I define my key vault, my secret key, secret scope and access poli
 <img width="396" alt="Azvault" src="https://user-images.githubusercontent.com/55653989/229963424-41ece067-e04f-4c9d-b0c9-f91a00b0e729.PNG">
 
 
-<img width="952" alt="KeyVaul Secret" src="https://user-images.githubusercontent.com/55653989/230125223-0c4dfa32-0970-4cb2-9514-32e17dca4c1d.PNG">
-
-
-
 Deploying the environment:
 Now that I have all my code ready I run:
 
