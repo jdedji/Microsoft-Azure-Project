@@ -62,6 +62,7 @@ This is where I define my key vault, my secret key, secret scope and access poli
 
 <img width="952" alt="KeyVaul Secret" src="https://user-images.githubusercontent.com/55653989/230125223-0c4dfa32-0970-4cb2-9514-32e17dca4c1d.PNG">
 
+<img width="956" alt="Workspace2" src="https://user-images.githubusercontent.com/55653989/230129263-c4f00684-d88b-48c0-9db8-6b09e6a21d01.PNG">
 
 
 Deploying the environment:
@@ -73,11 +74,19 @@ Now that I have all my code ready I run:
 
     • Terraform apply
   
-  
-<img width="959" alt="databrickWorkspace" src="https://user-images.githubusercontent.com/55653989/229963569-a2fc8301-9add-4dda-9bc4-329eab24d1a1.PNG">
+## Below are screenshot of resources deployed 
+
+### Databricks Workspace
+
 
 <img width="956" alt="Workspace2" src="https://user-images.githubusercontent.com/55653989/229963582-8e4f5ce9-ff96-48c8-9ef4-6fe67b9dda02.PNG">
 
+
+
+### Databicks Key Vault and It secret
+
 <img width="952" alt="KeyVaul Secret" src="https://user-images.githubusercontent.com/55653989/230125621-af1930f9-306d-4561-8bd9-9052e8160bcc.PNG">
+
+### Databricks Storage Account, and mounted containers
 
 <img width="953" alt="storageAcct" src="https://user-images.githubusercontent.com/55653989/230125574-bc4e5751-a587-4bd7-b5f7-8e5765559ea0.PNG">
